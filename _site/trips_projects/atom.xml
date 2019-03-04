@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>Hank Quinlan's Blog</title>
+	<link href="http://hankquinlan.github.io/blog/atom.xml" rel="self"/>
+	<link href="http://hankquinlan.github.io/blog"/>
+	<updated>2019-03-04T16:59:39+01:00</updated>
+	<id>http://hankquinlan.github.io/blog</id>
+	<author>
+		<name>Hank Quinlan</name>
+		<email>hankquinlanhub@gmail.com</email>
+	</author>
+
+	
+		<entry>
+			<title>Skialp at Chopok</title>
+			<link href="http://hankquinlan.github.io/blog/2016/03/14/skialp-Chopok"/>
+			<updated>2016-03-14T00:00:00+01:00</updated>
+			<id>http://hankquinlan.github.io/blog/2016/03/14/skialp-Chopok</id>
+			<content type="html">My unckle take me to the skialp for the first time in my life. Skialp differ from basic skiing in the equipment and especially in skis
+and ski boots. Skis are lighter than ordinary one build for the slope and they have to have mechanism for skialp ski boots. The mechanism 
+enables skier to have free heel and therefore he can move similarly as in the cross country skiing and at the way down it is firm so skier
+can safely ski down from the mountain. I had enjoyed it very much.</content>
+		</entry>
+	
+		<entry>
+			<title>Skialp at Chopok</title>
+			<link href="http://hankquinlan.github.io/blog/2016/03/14/skialp-Chopok"/>
+			<updated>2016-03-14T00:00:00+01:00</updated>
+			<id>http://hankquinlan.github.io/blog/2016/03/14/skialp-Chopok</id>
+			<content type="html">&lt;p&gt;
+My uncle take me to the skialp for the first time in my life. Maybe some of you have not idea what skialp is. For you a little explanation.
+Skialp differ from basic skiing in the equipment and especially in skis and ski boots. Skis are lighter than ordinary one build for the slope 
+and they have to have mechanism for skialp ski boots. The mechanism enables skier to have free heel and therefore he can move similarly as 
+in the cross country skiing and at the way down it is firm so skier
+can safely ski down from the mountain.
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+	&lt;img src=&quot;/pictures/IMAG1255.jpg&quot; alt=&quot;chopok&quot; style=&quot;width:71%; height:40%;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+As first we had climb to Milan Rastislav Štefánik cottage. Our energy has dropped after this ascend and we need to reacharge it so we stay at
+lunch and relax a bit. In the way 
+&lt;/p&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Trakai castle in Lithuania</title>
+			<link href="http://hankquinlan.github.io/blog/2015/04/30/trakai-baltic-castle"/>
+			<updated>2015-04-30T00:00:00+02:00</updated>
+			<id>http://hankquinlan.github.io/blog/2015/04/30/trakai-baltic-castle</id>
+			<content type="html">&lt;p&gt;This is Trakai island - literally castle on the water.&lt;/p&gt;
+</content>
+		</entry>
+	
+
+</feed>

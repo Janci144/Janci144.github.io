@@ -1,0 +1,30 @@
+---
+layout: default
+title: Janci's Blog
+---
+	<h1 style="text-align:center;">{{ page.title }}</h1>
+	<br></br>
+	
+	<div style="width:90%;">
+	<ul class="posts">
+	  {% for post in site.posts %}
+		<div class="row">
+			<div class="column">
+				<img src="{{post.img_src}}" alt="trakai" style="width:450px; height:100%;">
+			</div>
+			<div class="column">
+				<a href="{{post.url}}"><h2><b>{{post.title}} </b></h2></a>
+				<p style="font-size:0.7em">{{ post.date | date_to_string }} - {{post.category}}
+				<br></br>
+				<p style="font-size:1em">{{post.snippet}}</p>
+			</div>
+		</div>
+		
+		<span style="visibility:hidden;">{% increment counter %}</span>
+		{% if counter != site.posts.size %}
+			<hr>
+		{% endif %}
+	    <!-- <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.img_src }}</a></li> -->
+	  {% endfor %}
+	</ul>
+	</div>
