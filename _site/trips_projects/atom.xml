@@ -4,7 +4,7 @@
 	<title>Hank Quinlan's Blog</title>
 	<link href="http://hankquinlan.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://hankquinlan.github.io/blog"/>
-	<updated>2019-03-04T16:59:39+01:00</updated>
+	<updated>2019-03-05T14:21:50+01:00</updated>
 	<id>http://hankquinlan.github.io/blog</id>
 	<author>
 		<name>Hank Quinlan</name>
@@ -13,22 +13,58 @@
 
 	
 		<entry>
-			<title>Skialp at Chopok</title>
-			<link href="http://hankquinlan.github.io/blog/2016/03/14/skialp-Chopok"/>
-			<updated>2016-03-14T00:00:00+01:00</updated>
-			<id>http://hankquinlan.github.io/blog/2016/03/14/skialp-Chopok</id>
-			<content type="html">My unckle take me to the skialp for the first time in my life. Skialp differ from basic skiing in the equipment and especially in skis
-and ski boots. Skis are lighter than ordinary one build for the slope and they have to have mechanism for skialp ski boots. The mechanism 
-enables skier to have free heel and therefore he can move similarly as in the cross country skiing and at the way down it is firm so skier
-can safely ski down from the mountain. I had enjoyed it very much.</content>
+			<title>Snake game</title>
+			<link href="http://hankquinlan.github.io/blog/2018/11/14/snake-game"/>
+			<updated>2018-11-14T00:00:00+01:00</updated>
+			<id>http://hankquinlan.github.io/blog/2018/11/14/snake-game</id>
+			<content type="html">&lt;p align=&quot;center&quot;&gt;
+	&lt;img src=&quot;/pictures/snake2.png&quot; alt=&quot;snake1&quot; style=&quot;width:70%; height:70%;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+It was a lot of fun during the process of coding this very basic game. I learned a lot about how the graphics 
+rendering works in the OpenGL engine. I apply my skills from the subject in which we learned to code in the
+notoriusly famous programming language C++.
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+	&lt;img src=&quot;/pictures/snake1.png&quot; alt=&quot;snake2&quot; style=&quot;width:70%; height:70%;&quot; /&gt;
+&lt;/p&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Trakai castle in Lithuania</title>
+			<link href="http://hankquinlan.github.io/blog/2018/07/30/trakai-baltic-castle"/>
+			<updated>2018-07-30T00:00:00+02:00</updated>
+			<id>http://hankquinlan.github.io/blog/2018/07/30/trakai-baltic-castle</id>
+			<content type="html">&lt;p align=&quot;center&quot;&gt;
+	&lt;img src=&quot;/pictures/IMAG0010.jpg&quot; alt=&quot;trakai_outside&quot; style=&quot;width:71%; height:40%;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+	The castle origins began in second half of the 14 century and it was meant to be a fortress. It has several
+	defence systems such as hudge walland and very convienant place in the middle of the lake. Only way how
+	you can get to the castle is on thewooden bridge or at boat. Castle itself has several courtyards where
+	are being held Middle Age presentations such as knight fights or market from that era. 
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+	&lt;img src=&quot;/pictures/pilis0001.jpg&quot; alt=&quot;trakai_inside&quot; style=&quot;width:71%; height:40%;&quot; /&gt;
+&lt;/p&gt;
+</content>
 		</entry>
 	
 		<entry>
 			<title>Skialp at Chopok</title>
-			<link href="http://hankquinlan.github.io/blog/2016/03/14/skialp-Chopok"/>
-			<updated>2016-03-14T00:00:00+01:00</updated>
-			<id>http://hankquinlan.github.io/blog/2016/03/14/skialp-Chopok</id>
-			<content type="html">&lt;p&gt;
+			<link href="http://hankquinlan.github.io/blog/2018/03/15/skialp-Chopok"/>
+			<updated>2018-03-15T00:00:00+01:00</updated>
+			<id>http://hankquinlan.github.io/blog/2018/03/15/skialp-Chopok</id>
+			<content type="html">&lt;p align=&quot;center&quot;&gt;
+	&lt;img src=&quot;/pictures/IMAG1255.jpg&quot; alt=&quot;chopok&quot; style=&quot;width:71%; height:40%;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
 My uncle take me to the skialp for the first time in my life. Maybe some of you have not idea what skialp is. For you a little explanation.
 Skialp differ from basic skiing in the equipment and especially in skis and ski boots. Skis are lighter than ordinary one build for the slope 
 and they have to have mechanism for skialp ski boots. The mechanism enables skier to have free heel and therefore he can move similarly as 
@@ -37,22 +73,16 @@ can safely ski down from the mountain.
 &lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-	&lt;img src=&quot;/pictures/IMAG1255.jpg&quot; alt=&quot;chopok&quot; style=&quot;width:71%; height:40%;&quot; /&gt;
+	&lt;img src=&quot;/pictures/IMAG1254.jpg&quot; alt=&quot;uncle&quot; style=&quot;width:40%; height:71%;&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
-As first we had climb to Milan Rastislav Štefánik cottage. Our energy has dropped after this ascend and we need to reacharge it so we stay at
-lunch and relax a bit. In the way 
+As first we had climb to Milan Rastislav Štefánik cottage. Our energy has dropped after this ascend and we need to reacharge it, so we stay at
+lunch and relax a bit. Our next target was hill call Ďumbier. It was neccesary to go through it because it's on the ridge leading to our destiantion.
+At the top of hill is a big metal double cross which symbolize our country. For those who don't know double cross in our nation sign and flag. 
+After that we went couple times downhills and uphills until we came to the Chopok hill, our destination, in the altitude of 2048  m a.s.l. Even
+thoug it was thick fog and we had see just over 20 metres in distance, it was wonderful feeling. 
 &lt;/p&gt;
-</content>
-		</entry>
-	
-		<entry>
-			<title>Trakai castle in Lithuania</title>
-			<link href="http://hankquinlan.github.io/blog/2015/04/30/trakai-baltic-castle"/>
-			<updated>2015-04-30T00:00:00+02:00</updated>
-			<id>http://hankquinlan.github.io/blog/2015/04/30/trakai-baltic-castle</id>
-			<content type="html">&lt;p&gt;This is Trakai island - literally castle on the water.&lt;/p&gt;
 </content>
 		</entry>
 	
