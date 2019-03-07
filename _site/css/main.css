@@ -44,6 +44,15 @@ h2{
   padding: 0px;
 }
 
+.row1 {
+  display: flex;
+  height: 800px;
+}
+
+.column1 {
+  flex: 33%;
+  padding: 0px;
+}
 
 a {
 	display: inline-block;

@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
 title: "Snake game"
-date: 2018-11-14
+date: 2018-03-15
 img_src: /pictures/snake_title.png
 category: "project"
 snippet: "My first game in OpenGL"
@@ -20,3 +20,4 @@ notoriusly famous programming language C++.
 <p align="center">
 	<img src="/pictures/snake1.png" alt="snake2" style="width:70%; height:70%;">
 </p>
+

@@ -1,0 +1,23 @@
+---
+layout: default
+title: My Blog
+---
+<h1 style="text-align:center;">Scheduled trips</h1>
+<br></br>
+
+<div class="row1">
+	{% for post in site.posts %}
+		{% if post.category == "scheduled" %}
+			<div class="column1" style="margin:10px;">
+				<h2 style="text-align:center;"><b>{{post.title}}</b></h2>
+				<p style="align:center;">
+					<img src="{{post.img_src}}" style="width:100%; height:230px;>
+				</p>
+				<p style="font-size:0.7em">trip date: {{post.start_d}}-{{post.end_d}}.{{post.month}}.{{post.year}}</p>
+				<br></br>
+				{{post.content}}
+			</div>
+		{% endif %}	
+	{% endfor %}
+</div>
+	

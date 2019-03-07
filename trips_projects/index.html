@@ -10,7 +10,7 @@ title: My Blog
 	  {% for post in site.posts %}
 		<div class="row">
 			<div class="column">
-				<img src="{{post.img_src}}" alt="trakai" style="width:450px; height:100%;">
+				<img src="{{post.img_src}}" style="width:450px; height:100%;">
 			</div>
 			<div class="column">
 				<a href="{{post.url}}"><h2><b>{{post.title}} </b></h2></a>
@@ -24,7 +24,6 @@ title: My Blog
 		{% if counter != site.posts.size %}
 			<hr>
 		{% endif %}
-	    <!-- <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.img_src }}</a></li> -->
 	  {% endfor %}
 	</ul>
 	</div>

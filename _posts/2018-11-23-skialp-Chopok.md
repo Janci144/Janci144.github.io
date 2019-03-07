@@ -1,7 +1,7 @@
-﻿---
+---
 layout: post
 title: "Skialp at Chopok"
-date: 2018-03-15
+date: 2018-11-23
 img_src: /pictures/IMAG1255.jpg
 category: "sport"
 snippet: "I' ve experienced first time in my life the feel of ascend of the mountain on skies. It' was just perfect."
