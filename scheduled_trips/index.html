@@ -1,19 +1,19 @@
 ---
-layout: default
+layout: main
 title: My Blog
 ---
 <h1 style="text-align:center;">Scheduled trips</h1>
 <br></br>
 
-<div class="row1">
+<div class="row_h800">
 	{% for post in site.posts %}
 		{% if post.category == "scheduled" %}
-			<div class="column1" style="margin:10px;">
-				<h2 style="text-align:center;"><b>{{post.title}}</b></h2>
+			<div class="column3">
+				<h2 class="center"><b>{{post.title}}</b></h2>
 				<p style="align:center;">
-					<img src="{{post.img_src}}" style="width:100%; height:230px;>
+					<img class="img-scheduled" src="{{post.img_src}}">
 				</p>
-				<p style="font-size:0.7em">trip date: {{post.start_d}}-{{post.end_d}}.{{post.month}}.{{post.year}}</p>
+				<p>trip date: {{post.start_d}}-{{post.end_d}}.{{post.month}}.{{post.year}}</p>
 				<br></br>
 				{{post.content}}
 			</div>
@@ -24,10 +24,11 @@ title: My Blog
 <div id="fb-root"></div>
 <script async defer src="https://connect.facebook.net/sk_SK/sdk.js#xfbml=1&version=v3.2"></script>
 
-<div style="height:300px; margin-top:40px;">
-	<img src="/pictures/volko.jpg" style="float:left; width:200px; height:200px; border-radius:50%; vertical-align: middle;">
-	<h3>Like Jan page</h3>
-	<div class="fb-like" style="float:left; vertical-align:middle;" data-href="https://www.facebook.com/janvolkofanpage/" data-width="300" data-layout="box_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+<div class="plugin">
+	<img src="/pictures/volko.jpg" class="rounded">
+	
+	<h3 >Like Jan page</h3>
+	<div class="fb-like" data-href="https://www.facebook.com/janvolkofanpage/" data-width="300" data-layout="box_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
 </div> 
 
 	

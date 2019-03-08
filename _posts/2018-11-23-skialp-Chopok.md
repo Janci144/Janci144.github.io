@@ -7,8 +7,8 @@ category: "sport"
 snippet: "I' ve experienced first time in my life the feel of ascend of the mountain on skies. It' was just perfect."
 ---
 
-<p align="center">
-	<img src="/pictures/IMAG1255.jpg" alt="chopok" style="width:71%; height:40%;">
+<p class="center">
+	<img class="ratio16-9" src="/pictures/IMAG1255.jpg" alt="chopok">
 </p>
 
 <p>
@@ -19,8 +19,8 @@ in the cross country skiing and at the way down it is firm so skier
 can safely ski down from the mountain.
 </p>
 
-<p align="center">
-	<img src="/pictures/IMAG1254.jpg" alt="uncle" style="width:40%; height:71%;">
+<p class="center">
+	<img class="ratio16-9" src="/pictures/IMAG1254.jpg" alt="uncle">
 </p>
 
 <p>

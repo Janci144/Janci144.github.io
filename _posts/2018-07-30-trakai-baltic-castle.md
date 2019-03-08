@@ -7,8 +7,8 @@ category: "travelling"
 snippet: "This is Trakai island - literally castle on the water. Interesting architecture and beatiful surroundings..."
 ---
 
-<p align="center">
-	<img src="/pictures/IMAG0010.jpg" alt="trakai_outside" style="width:71%; height:40%;">
+<p class="center">
+	<img class="ratio16-9" src="/pictures/IMAG0010.jpg" alt="trakai_outside">
 </p>
 
 <p>
@@ -18,6 +18,6 @@ snippet: "This is Trakai island - literally castle on the water. Interesting arc
 	are being held Middle Age presentations such as knight fights or market from that era. 
 </p>
 
-<p align="center">
-	<img src="/pictures/pilis0001.jpg" alt="trakai_inside" style="width:71%; height:40%;">
+<p class="center">
+	<img class="ratio16-9" src="/pictures/pilis0001.jpg" alt="trakai_inside">
 </p>
