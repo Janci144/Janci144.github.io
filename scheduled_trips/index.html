@@ -2,20 +2,23 @@
 layout: main
 title: My Blog
 ---
-<h1 style="text-align:center;">Scheduled trips</h1>
+<h1 class="center">Scheduled trips</h1>
 <br></br>
 
 <div class="row_h800">
-	{% for post in site.posts %}
+	{% assign sorted = site.posts | sort: "date" %}
+	{% for post in sorted %}
 		{% if post.category == "scheduled" %}
 			<div class="column3">
 				<h2 class="center"><b>{{post.title}}</b></h2>
-				<p style="align:center;">
+				
+				<figure class="center">
 					<img class="img-scheduled" src="{{post.img_src}}">
-				</p>
+					<figcaption>source: {{post.img_source_legal}}</figcaption>
+				</figure>
 				<p>trip date: {{post.start_d}}-{{post.end_d}}.{{post.month}}.{{post.year}}</p>
 				<br></br>
-				{{post.content}}
+				{{ post.excerpt | markdownify }}
 			</div>
 		{% endif %}	
 	{% endfor %}
@@ -25,7 +28,7 @@ title: My Blog
 <script async defer src="https://connect.facebook.net/sk_SK/sdk.js#xfbml=1&version=v3.2"></script>
 
 <div class="plugin">
-	<img src="/pictures/volko.jpg" class="rounded">
+	<img class="rounded" src="/pictures/volko.jpg">
 	
 	<h3 >Like Jan page</h3>
 	<div class="fb-like" data-href="https://www.facebook.com/janvolkofanpage/" data-width="300" data-layout="box_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>

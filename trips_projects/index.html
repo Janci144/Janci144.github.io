@@ -2,18 +2,16 @@
 layout: main
 title: My Blog
 ---
-	<h1 class="center">{{ page.title }}</h1>
+	<h1 class="center">{{ page.title | capitalize}}</h1>
 	<br></br>
 	
 	<div>
 	<ul class="posts">
-	{% assign counter = 0 %}
-	  {% for post in site.posts %}
+	{% assign sorted = site.posts | sort: "date" | reverse %}
+	{% for post in sorted %}
 		{% if post.category != "scheduled" %}
 			<span class="non-display">{% increment counter %}</span>
-			
-			<!-- this condition is for not adding line above first blog contribution -->
-			
+						
 			{% unless counter == 1 %}
 				<hr>
 			{% endunless %}
@@ -31,6 +29,6 @@ title: My Blog
 			</div>
 			
 		{% endif %}
-	  {% endfor %}
+	{% endfor %}
 	</ul>
 	</div>

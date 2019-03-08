@@ -212,16 +212,6 @@ span.non-display{
 	margin-top:40px;
 }
 
-.verticalw{
-	float:left;
-	vertical-align:middle;
-}
-
-.fb-like.verticalw{
-	float:left;
-	vertical-align:middle;
-}
-
 .margin-bottom200{
 	margin-bottom:200px;
 }
@@ -239,3 +229,6 @@ th, td {
 	text-align: left;
 }
 
+figcaption { 
+  display: block;
+}

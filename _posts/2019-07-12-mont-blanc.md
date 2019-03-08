@@ -6,6 +6,7 @@ month: "07"
 year: "2019"
 date: 2018-11-23
 img_src: /pictures/mont-blanc-2423512_960_720.jpg
+img_source_legal: "https://pixabay.com/sk/photos/mont-blanc-mont-maudit-%C4%BEadovec-2423512/"
 category: "scheduled"
 ---
 

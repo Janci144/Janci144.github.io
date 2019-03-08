@@ -18,6 +18,9 @@ snippet: "This is Trakai island - literally castle on the water. Interesting arc
 	are being held Middle Age presentations such as knight fights or market from that era. 
 </p>
 
+
 <p class="center">
 	<img class="ratio16-9" src="/pictures/pilis0001.jpg" alt="trakai_inside">
+<br/>
+	source: http://www.trakaimuziejus.lt/island-castle
 </p>
