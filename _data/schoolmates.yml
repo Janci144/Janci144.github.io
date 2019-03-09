@@ -1,14 +1,14 @@
 - name: Enrik Hepner
   github: razzorblade
   description: born as a programmer
-  img_path: /pictures/Enrik.png
+  img_path: /pictures/Enrik.jpg
   
 - name: Daniel Eliáš
   github: Xeliasd
   description: pragrammer with cooking hobby
-  img_path: /pictures/Dano.png
+  img_path: /pictures/Dano.jpg
   
 - name: Adam Fábry
   github: adamis19
   description: programmer with sport hobby
-  img_path: /pictures/Adam.png
+  img_path: /pictures/Adam.jpg

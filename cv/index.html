@@ -1,9 +1,12 @@
 ---
 layout: contact_form
 title: Curriculum vitae
+document: cv
 ---
 <h1 class="center">{{ page.title | capitalize}}</h1>
 
+{% assign cv = site.data.documents[page.document] %}
+
 <div class="blurb">
-	<iframe src="CV-JanHajzok.pdf"></iframe>
+	<iframe src="{{cv.path}}"></iframe>
 </div>

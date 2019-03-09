@@ -4,9 +4,10 @@ layout: main
 
 <h1 class="center">{{page.title}}</h1>
 
+{% assign mates = page.title | downcase %}
 
 <table>
-{% tablerow mate in site.data.schoolmates cols:1 %}
+{% tablerow mate in site.data.[mates] cols:1 %}
 	<img class="main-photo img400" src="{{mate.img_path}}" alt="{{mate.name}}" />
 	<h3>Name: {{mate.name}}</h3>
 	<h3>Github: <a href="https://{{ mate.github }}.github.io">{{mate.github}}</a></h3>
