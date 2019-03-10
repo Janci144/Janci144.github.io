@@ -1,3 +1,7 @@
 cv: 
     path: /documents/CV-JanHajzok.pdf
     description: Curriculum Vitae 
+    
+documentation:
+    path: /documents/Hajzok-Dokumentacia.pdf
+    description: documentation of my web residency

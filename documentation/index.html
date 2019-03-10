@@ -1,0 +1,12 @@
+---
+layout: main
+title: Documentation
+document: documentation
+---
+<h1 class="center">Documentation</h1>
+
+{% assign doc = site.data.documents[page.document] %}
+
+<div class="blurb">
+	<iframe src="{{doc.path}}"></iframe>
+</div>
