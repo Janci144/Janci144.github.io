@@ -5,3 +5,7 @@ cv:
 documentation:
     path: /documents/Hajzok-Dokumentacia.pdf
     description: documentation of my web residency
+    
+documentation2:
+    path: /documents/Web-publication-task2.pdf
+    description: documentation for second task

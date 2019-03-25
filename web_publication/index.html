@@ -1,6 +1,12 @@
 ---
 layout: main
-title: Web publication tasks 
+title: Web publication tasks
+document: documentation2
 ---
+<h1 class="center">Documentation for second task</h1>
 
-<h1>{{page.title}}</h1>
+{% assign doc = site.data.documents[page.document] %}
+
+<div class="blurb">
+	<iframe src="{{doc.path}}"></iframe>
+</div>
