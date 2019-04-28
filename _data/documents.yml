@@ -9,3 +9,7 @@ documentation:
 documentation2:
     path: /documents/Web-publication-task2.pdf
     description: documentation for second task
+    
+documentation3:
+    path: /documents/Dokumentacia_Zadanie3.pdf
+    description: documentation for third task
